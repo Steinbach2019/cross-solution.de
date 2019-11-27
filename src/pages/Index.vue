@@ -1,6 +1,11 @@
 <template>
   <q-page class="flex items-start">
-    <q-carousel class="full-width" animated v-model="slide" height="400px">
+    <q-carousel
+      class="full-width"
+      animated
+      v-model="slide"
+      height="400px"
+    >
       <q-carousel-slide
         name="first"
         img-src="statics/frankfurt-im-nebel.jpg"
@@ -164,8 +169,6 @@ body {
     opacity: 1;
     top: -100vh;
   }
-}
-#content_row {
 }
 #content_row h1 {
   text-align: center;

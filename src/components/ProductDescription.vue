@@ -8,7 +8,11 @@
 
     <div class="content-info">
       <span v-if="description">{{ description }}</span>
-      <span v-else v-for="n in 3" :key="n">
+      <span
+        v-else
+        v-for="n in 3"
+        :key="n"
+      >
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil
         praesentium molestias a adipisci, dolore vitae odit, quidem consequatur
         optio voluptates asperiores pariatur eos numquam rerum delectus commodi
@@ -16,7 +20,10 @@
       </span>
     </div>
     <div class="btn-touch">
-      <a class="btn_02 btn_01" href="/contact">Get in touch!</a>
+      <a
+        class="btn_02 btn_01"
+        href="/contact"
+      >Get in touch!</a>
     </div>
   </article>
 </template>
@@ -66,6 +73,7 @@ article {
   position: relative;
   text-align: center;
   width: 100%;
+  margin-top: 3rem;
   margin-bottom: 3.5rem;
 }
 .btn_01 {
